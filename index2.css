@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
+.nav{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.button{
+    color: aliceblue;
+    
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+}
+
+.options{
+
+    font-weight: 500;
+}
+.nav button{
+    padding: 5px 5px;
+    height: 20px;
+    color: aliceblue;
+    background-color: #222222;
+    border-radius: 20px;
+    border: none;
+}
+
+.hero{
+    height: 220px;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 120px;
+    font-weight: 500;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filters{
+    display: flex;
+    gap: 15px;
+}
+.filters button{
+    padding: 15px 25px;
+    border: none;
+    top: 10%;
+    border-radius:30px ;
+    background-color:#222222;;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.filters button:nth-child(1){
+    background-color: orangered;
+}
+
+
+.cards{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    width:350px;
+    background:#111;
+    overflow: hidden;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+}
+
+.card button{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #3b1d12;
+    color: #ff7a2f;
+    border-radius: 20px;
+    border: none;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.card h2{
+    color: aliceblue;
+    margin-top:20px;
+    margin-left:20px;
+    display: flex;
+}
+
+.card p{
+    color: gray;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom: 5px;
+}
+
+
